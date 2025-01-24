@@ -1,0 +1,15 @@
+version: 0.0.3
+scripts:
+  # Script executed when the container is first loaded
+  # eg: bootstrap: pip install pandas
+  bootstrap: |
+    sudo apt-get update
+    sudo apt-get install libgl1 -y
+    npm install
+    pip install -r requirements.txt
+name: blind-watermark
+description: Blind watermark based on DWT-DCT-SVD.
+displayName: Blind Watermark
+releaseNotes: add code repo
+icon: https://package-assets.oomol.com/packages/blind-watermark/0.0.2/files/package/icon.png
+repository: https://github.com/oomol-flows/blind-watermark

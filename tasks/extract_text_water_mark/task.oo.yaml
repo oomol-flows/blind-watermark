@@ -1,0 +1,23 @@
+inputs_def:
+  - handle: image_file
+    description: Input
+    json_schema:
+      type: string
+      ui:widget: file
+  - handle: wm_shape
+    json_schema:
+      type: number
+outputs_def:
+  - handle: wm_extract
+    description: Output
+    json_schema:
+      type: string
+ui:
+  default_width: 450
+executor:
+  name: python
+  options:
+    spawn: false
+    entry: __init__.py
+title: Extract Text Water Mark
+icon: ":logos:python:"

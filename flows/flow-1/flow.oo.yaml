@@ -1,0 +1,24 @@
+nodes:
+  - task: self::add_text_water_mark
+    title: "text_water_mark #1"
+    node_id: text_water_mark#1
+    inputs_from:
+      - handle: image_file
+        value: /oomol-driver/oomol-storage/uuu.png
+      - handle: output_dir
+        value:
+      - handle: water_mark
+        value: 你好啊
+  - task: self::extract_text_water_mark
+    title: "extract_text_water_mark #1"
+    node_id: Extract Text Water Mark#1
+    inputs_from:
+      - handle: image_file
+        value: /oomol-driver/oomol-storage/uuuu/embedded.png
+        from_node:
+          - node_id: text_water_mark#1
+            output_handle: save_address
+      - handle: wm_shape
+        from_node:
+          - node_id: text_water_mark#1
+            output_handle: wm_shape

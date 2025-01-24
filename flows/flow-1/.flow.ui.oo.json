@@ -1,0 +1,29 @@
+{
+  "nodes": {
+    "text_water_mark#1": {
+      "rfNode": {
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sections": {
+        "inputs": {
+          "collapsed": {
+            "water_mark": {
+              "[]": false
+            }
+          }
+        }
+      }
+    },
+    "Extract Text Water Mark#1": {
+      "rfNode": {
+        "position": {
+          "x": 484,
+          "y": 41.5
+        }
+      }
+    }
+  }
+}
