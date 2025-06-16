@@ -1,4 +1,4 @@
-version: 0.0.3
+version: 0.0.4
 scripts:
   # Script executed when the container is first loaded
   # eg: bootstrap: pip install pandas
@@ -10,6 +10,6 @@ scripts:
 name: blind-watermark
 description: Blind watermark based on DWT-DCT-SVD.
 displayName: Blind Watermark
-releaseNotes: add code repo
+releaseNotes: add poetry
 icon: https://package-assets.oomol.com/packages/blind-watermark/0.0.2/files/package/icon.png
 repository: https://github.com/oomol-flows/blind-watermark

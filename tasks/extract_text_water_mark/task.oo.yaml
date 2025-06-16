@@ -20,4 +20,4 @@ executor:
     spawn: false
     entry: __init__.py
 title: Extract Text Water Mark
-icon: ":logos:python:"
+icon: ":carbon:bottom-panel-open:"
