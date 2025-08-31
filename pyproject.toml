@@ -1,14 +1,15 @@
 [project]
 name = "workspace"
 version = "0.1.0"
-description = ""
+description = "A workspace project"
 authors = [
-    {name = "shaun",email = "beingswu@gmail.com"}
+    {name = "User",email = "user@example.com"}
 ]
-license = {text = "MIT"}
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.8"
 dependencies = [
+    "blind-watermark (==0.4.4)",
+    "opencv-python (==4.10.0.84)"
 ]
 
 

@@ -4,6 +4,7 @@ nodes:
     node_id: text_water_mark#1
     inputs_from:
       - handle: image_file
+        value: /oomol-driver/oomol-storage/image/da01c73d-88cb-48c5-8e00-20c819858f4a.png
       - handle: output_dir
         value:
       - handle: water_mark
