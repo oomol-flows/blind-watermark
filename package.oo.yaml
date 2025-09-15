@@ -1,4 +1,4 @@
-version: 0.0.6
+version: 0.0.7
 scripts:
   bootstrap: |
     npm install
@@ -6,8 +6,8 @@ scripts:
     sudo apt-get update
     sudo apt-get install libgl1 -y
 name: blind-watermark
-description: Blind watermark based on DWT-DCT-SVD.
-displayName: Blind Watermark
+description: "%blind-watermark-based-on-dwt-dct-svd%"
+displayName: "%blind-watermark%"
 releaseNotes: update
 icon: https://package-assets.oomol.com/packages/blind-watermark/0.0.2/files/package/icon.png
 repository: https://github.com/oomol-flows/blind-watermark
